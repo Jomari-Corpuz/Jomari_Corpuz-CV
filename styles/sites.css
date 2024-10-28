@@ -1,0 +1,193 @@
+body {
+    width: 21cm;
+    height: 29.7cm;
+    margin: auto;
+    padding: 20px;
+    line-height: 120%;
+    font-family: "Roboto",flex;
+}
+
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+dd { 
+    margin-left: 5%;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.section{
+    color:white;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 2px;
+    
+}
+
+.content {
+    font-size: small;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.competences { 
+    margin: 10px;
+    font-size: small;
+}
+
+.aPropos {
+    color:slategray;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 55%;
+    margin-bottom: 10px;
+}
+
+.aProposContent {
+    margin-left: 20px;
+    font-size: small;
+}
+
+.poste {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: auto;
+    width: 40%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.contentContainer {
+    display: grid;
+    grid-template-columns: 35% 3% 62%;
+    margin: 20px;
+    line-height: 115%;
+    
+}
+
+.nameContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: xxx-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 3px;
+}
+
+.information{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.contactInfo {
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 10px;
+    font-family: "Roboto", flex ;
+}
+
+.icons {
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 15px;
+    border-radius: 20px;
+    background-color: slategray;
+    margin: 3px;
+}
+
+.photo {
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    background-position-x: 45%;
+    background-position-y: center;
+    background-size: 600px;
+    border-radius: 100px;
+    background-color: white;
+    margin-left: 40%;
+    outline: 5px solid steelblue;
+    border: 5px solid white;
+
+}
+
+.personalInfoContainer {
+    display: grid;
+    grid-template-columns: 1% 41% 57% 1%; 
+}
+
+/*** SEPERATORS ***/
+
+.separator {
+    height: 33%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contentSeparator {
+    width: 3px;
+    margin: 10px;
+}
+
+/*** TEXT COLORS AND WEIGHT ***/
+
+.steelBlueFont {
+    color: steelblue;
+}
+
+.steelBlueBackground {
+    background-color: steelblue;
+}
+
+
+.dimGrayFont {
+    color: dimgray;
+}
+
+.dimGrayBackground {
+    background-color: dimgray;
+}
+
+
+.blackFont {
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*** Div Border ***/
+/*
+div {
+    border: 1px solid blue;
+}
